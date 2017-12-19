@@ -26,3 +26,38 @@ footer {
   z-index: 0;
   top: -15px;
 }
+.div1{
+
+	display:flex;
+	position:absolute;
+	top: 19%;
+	justify-content: center;
+	justify-content: space-around;
+	
+}
+
+
+.aveugle{
+width: 10%;	
+}
+.Cachalot{
+width: 20%;
+	
+}
+.C-S{
+width: 20%;
+	
+}
+.div2{
+
+	position:absolute;
+	top: 5%;
+	width: 95%;
+	
+}
+.PB{
+	font-weight: bolder;
+	font-size:35px;
+	text-align: center;
+	color:lime;
+}
