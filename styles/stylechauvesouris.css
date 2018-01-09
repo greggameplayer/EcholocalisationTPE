@@ -36,10 +36,20 @@ footer {
 	}
 #div1{
 	font-size:25px;
-	color: white;
-	text-shadow: black 5px 5px 5px;
+	color: blue;
+	text-shadow: red 5px 3px 1px;
 	position: absolute;
 	top: 70px;
 	width:1500px;
 	text-align:center;
 }	
+#div2{
+	font-size:25px;
+	color: black;
+	text-shadow: grey 5px 3px 1px;
+	position: absolute;
+	top: 400px;
+	left: 10px;
+	width:500px;
+	text-align:center;	
+}
