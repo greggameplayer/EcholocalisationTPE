@@ -14,7 +14,7 @@ header {
 }
 footer {
   position: absolute;
-  top: 92.2%;
+  top: 120%;
   left: 0;
   width: 100%;
   background-color: white;
@@ -85,4 +85,16 @@ width: 20%;
 	font-size: 1.5rem;
 	text-shadow: black 3px 3px 3px;
 	text-align: center;
+}
+#buttonfleche
+{
+	height: 70px;
+}
+#button
+{
+	top: 110%;
+	left: 0px;
+	position:absolute;
+	width: 100%;
+	background-color: black;
 }

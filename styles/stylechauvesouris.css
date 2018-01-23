@@ -14,7 +14,7 @@ header {
 }
 footer {
   position: absolute;
-  top: 110%;
+  top: 120%;
   left: 0;
   width: 100%;
   background-color: white;
@@ -36,8 +36,7 @@ footer {
 	}
 #div1{
 	font-size:25px;
-	color: black;
-	text-shadow: grey 5px 3px 1px;
+	color: white;	
 	position: absolute;
 	top: 70px;
 	width:1500px;
@@ -46,7 +45,7 @@ footer {
 #div2{
 	font-size:25px;
 	color: black;
-	text-shadow: grey 5px 3px 1px;
+	font-family: "Flamante Roma Medium";
 	position: absolute;
 	top: 400px;
 	left: 10px;
