@@ -26,3 +26,18 @@ footer {
   z-index: 0;
   top: -15px;
 }
+i
+{
+  position: absolute;
+  z-index: 0;
+  top: 8px;
+  left: 8px;
+  color: black;
+}
+#home
+{
+  position: absolute;
+z-index: 1;
+  height: 50px;
+  width: 50px;
+}

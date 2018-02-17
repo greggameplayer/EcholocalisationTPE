@@ -30,7 +30,7 @@ footer {
 
 	display:flex;
 	position:absolute;
-	top: 19%;
+	top: 90%;
 	justify-content: center;
 	justify-content: space-around;
 	
@@ -47,7 +47,7 @@ width: 20%;
 .div2{
 
 	position:absolute;
-	top: 5%;
+	top: 60%;
 	width: 95%;
 	
 }
@@ -59,7 +59,7 @@ width: 20%;
 }
 #div3{
 	position: relative;
-	top:+350px;
+	top:+50px;
 	z-index: 0;
 
 	
@@ -82,15 +82,29 @@ width: 20%;
 	text-shadow: black 3px 3px 3px;
 	text-align: center;
 }
-#buttonfleche
+#button p
 {
-	height: 70px;
+	font-size: 1.3rem;
+}
+#linkbutton
+{
+	text-decoration: none;
+	color: black;
 }
 #button
 {
-	top: 110%;
-	left: 0px;
-	position:absolute;
-	width: 100%;
-	background-color: black;
+	top:+200px;
+	left: +42%;
+	text-align: center;
+	position:relative;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	width: 250px;
+}
+#button:hover
+{
+	border-color: green;
+	box-shadow: 3px 2px 3px green;
+	color:green;
 }
