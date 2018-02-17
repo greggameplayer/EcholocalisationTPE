@@ -14,7 +14,7 @@ header {
 }
 footer {
   position: absolute;
-  top: 120%;
+  top: 200%;
   left: 0;
   width: 100%;
   background-color: white;
@@ -31,8 +31,8 @@ footer {
 	height: 40%;
 	width:30%;
 	position:absolute;
-	top:400px;
-	margin-left: 35%;
+	top:1000px;
+	margin-left: 65%;
 	}
 #div1{
 	font-size:25px;
@@ -45,32 +45,27 @@ footer {
 #div2{
 	font-size:25px;
 	color: black;
-	font-family: "Flamante Roma Medium";
 	position: absolute;
-	top: 400px;
+	top: 1000px;
 	left: 10px;
-	width:500px;
+	width:900px;
 	text-align:center;	
 }
+#div3{
+	font-size:25px;
+	color: white;
+	position: absolute;
+	top: 450px;
+	left: 10px;
+	width:1500px;
+	text-align:center;	
+}
+
+
 #bouttonfleche1
 {
 	position: absolute;
 	height: 80px;
-	top:730px;
+	top:1500px;
 	left: 750px;
-}
-i
-{
-  position: absolute;
-  z-index: 0;
-  top: 8px;
-  left: 8px;
-  color: black;
-}
-#home
-{
-  position: absolute;
-z-index: 1;
-  height: 50px;
-  width: 50px;
 }
