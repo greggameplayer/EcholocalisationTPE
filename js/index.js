@@ -1,7 +1,7 @@
 ﻿var aveugle;
 var chauvesouris;
 var home;
-
+var pulse;
 
 
 function onAveugleClick(){
@@ -12,6 +12,9 @@ function onChauvesourisClick(){
 }
 function onHomeClick(){
 	document.location.href="index.html";
+}
+function onPulseClick(){
+	document.location.href="animation/index.html";
 }
 
 function onStart(){
@@ -24,6 +27,10 @@ function onStart(){
 	if(document.body.contains(document.getElementById("home")) === true){
 	home = document.getElementById("home");
 	home.addEventListener("click", onHomeClick);
+	}
+	if(document.body.contains(document.getElementById("pulse")) === true){
+	pulse = document.getElementById("pulse");
+	pulse.addEventListener("click", onPulseClick);
 	}
 }
 window.addEventListener("load", onStart);

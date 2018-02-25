@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" type="image/png" href="favicon.png" />
+		<title>Echolocalisation</title>
+	</head>
+	<body>
+		<div id="container_bouton">
+			<input type="button" value="CALCULER" id="calculer" />
+			<div id="calcul"></div>
+			<select id="milieu">
+				<optgroup label="Milieu">
+          <option>Air</option>
+          <option>Eau</option>
+          <option>Vide</option>
+				</optgroup>
+     </select>
+		</div>
+		<img src="chauve_souris.png" id="img" /><div id="petite">)</div><div id="moyenne">)</div><div id="grande">)</div>
+		<div id="container"></div>
+		<div class="nombre">0</div><div class="nombre" id="nombre10">10</div>
+		<div id="echelle"><span class="trait">|</span><span class="trait">|</span><span class="trait">|</span><span class="trait">|</span><span class="trait">|</span><span class="trait">|</span><span class="trait">|</span><span class="trait">|</span><span class="trait">|</span><span class="trait">|</span><span class="trait">|</span></div>
+		<div id="mur"></div>
+		<script src="script.js"></script>
+	</body>
+</html>
