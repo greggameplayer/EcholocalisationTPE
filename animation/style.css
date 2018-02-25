@@ -1,0 +1,120 @@
+body
+{
+  background-image: url(air.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  overflow: hidden;
+}
+
+#container_bouton
+{
+  background-color: white;
+  height: 10vh;
+  display: flex;
+}
+
+#calculer
+{
+  font-size: 3vmin;
+  height: 10vh;
+  min-width: 10vw;
+}
+
+#calcul
+{
+  font-size: 5vmin;
+  width: 80vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#milieu
+{
+  width: 10vw;
+  font-size: 3.5vmin;
+}
+
+#container
+{
+  position: absolute;
+  bottom: 12.5vh;
+  left: 0;
+  right: 12.5vw;
+  top: 22.5vh;
+  cursor: pointer;
+}
+
+#mur
+{
+	position: absolute;
+	right: 0;
+	top: 10vh;
+	bottom: 0;
+	width: 5vw;
+  cursor: auto;
+	background-image: url(brique.jpg);
+}
+
+#img
+{
+	width: 15vw;
+	height: 25vh;
+	transition: 0.7s;
+	transition-timing-function: ease-in-out;
+}
+
+#petite
+{
+	font-size: 5vh;
+}
+
+#moyenne
+{
+	font-size: 10vh;
+}
+
+#grande
+{
+	font-size: 15vh;
+}
+
+#petite, #moyenne, #grande
+{
+  display: none;
+  position: relative;
+}
+
+.nombre
+{
+  position: absolute;
+  bottom: 10vh;
+  font-size: 5vh;
+  font-weight: bold;
+}
+
+#nombre10
+{
+  left: 9vw;
+}
+
+#echelle
+{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 95vw;
+  height: 10vh;
+  border-bottom: 15px solid black;
+  z-index: 1;
+}
+
+.trait
+{
+  font-weight: bold;
+  font-size: 10vh;
+}
