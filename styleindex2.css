@@ -1,0 +1,62 @@
+body {
+ background-image: url(../images/fond.jpg);
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  background-color:white;
+  box-shadow: 0 3px 3px;
+}
+footer {
+  position: absolute;
+  top: 120%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 -2px 5px;
+}
+#titletpe {
+  text-align: center;
+  position: relative;
+  z-index: 0;
+  top: -15px;
+}
+#div1
+{
+  position: absolute;
+  left: 0px;
+  top: 32px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+#Fdoppler{
+	position: absolute;
+  top: 680px;
+	left: 1350px;
+  height: 80px;
+}
+h2
+{
+  color: red;
+  text-decoration:underline;
+}
+i
+{
+  position: absolute;
+  z-index: 0;
+  top: 8px;
+  left: 8px;
+  color: black;
+}
+#home
+{
+  position: absolute;
+z-index: 1;
+  height: 50px;
+  width: 50px;
+}
