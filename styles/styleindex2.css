@@ -1,6 +1,6 @@
 body {
- background-image: url(../images/fond.jpg);
- background-size: 100%;
+ background-image: url(../images/fondindex2.jpg);
+ background-size: 240%;
  background-repeat: no-repeat;
 }
 header {
@@ -14,7 +14,7 @@ header {
 }
 footer {
   position: absolute;
-  top: 300%;
+  top: 240%;
   left: 0;
   width: 100%;
   background-color: white;
@@ -29,18 +29,20 @@ footer {
 #div1
 {
   position: absolute;
-  left: 0px;
-  top: 32px;
+  left: calc(50% - 750px);
+  top: 3.5%;
+  width: 1500px;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 #div2
 {
    position: absolute;
-  left: 0px;
-  top: 1300px;
+  left: calc(50% - 750px);
+  top: 190%;
+  width: 1500px;
   text-align: center;
-  font-size: 1.2rem; 
+  font-size: 1.3rem; 
 }
 #Fdoppler{
 	position: absolute;
@@ -72,7 +74,7 @@ z-index: 1;
 video
 {
   position:absolute;
-  top: 131%;
+  top: 159%;
   left: calc(50vw - 190px);
   width: 380px;
   z-index:1;
