@@ -5,7 +5,7 @@ var pulse;
 
 
 function onAveugleClick(){
-	document.location.href="aveugle.html";
+	document.location.href="humain.html";
 }
 function onChauvesourisClick(){
 	document.location.href="chauvesouris.html";
