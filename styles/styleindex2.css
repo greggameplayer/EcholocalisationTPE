@@ -14,7 +14,7 @@ header {
 }
 footer {
   position: absolute;
-  top: 375%;
+  top: 260%;
   left: 0;
   width: 100%;
   background-color: white;
@@ -46,7 +46,7 @@ footer {
 }
 #Fdoppler{
 	position: absolute;
-  top: 680px;
+  top: 63vh;
   width:200px;
 	left: calc(90% - 100px);
   height: 80px;
@@ -75,7 +75,7 @@ z-index: 1;
 video
 {
   position:absolute;
-  top: 1990px;
+  top: 210.26vh;
   left: calc(50% - 250px);
   width: 500px;
   z-index:1;
