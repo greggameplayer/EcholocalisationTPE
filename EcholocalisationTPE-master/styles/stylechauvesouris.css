@@ -1,0 +1,79 @@
+body {
+ background-image: url(../images/fondgrotte.jpg);
+ background-size: 150%;
+ background-repeat: no-repeat;
+}
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  position: absolute;
+  background-color:white;
+  box-shadow: 0 3px 3px;
+}
+footer {
+  position: absolute;
+  top: 155%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 -2px 5px;
+}
+#titletpe {
+  text-align: center;
+  position: relative;
+  z-index: 0;
+  top: -13px;
+}
+#schema
+{
+	height: 25%;
+	width:20%;
+	position:absolute;
+	top:1000px;
+	margin-left: 75%;
+	}
+#div1{
+	font-size:25px;
+	color: white;	
+	position: absolute;
+	top: 70px;
+	left: calc(50% - 750px);
+	width:1500px;
+	text-align:center;
+}	
+#div2{
+	font-size:25px;
+	color: yellow;
+	position: absolute;
+	top: 900px;
+	left: calc(25% - 300px);
+	width:1000px;
+	text-align:center;	
+}
+#div3{
+	font-size:25px;
+	color: white;
+	position: absolute;
+	top: 500px;
+	left: calc(50% - 750px);
+	width:1500px;
+	text-align:center;	
+}
+i
+{
+  position: absolute;
+  z-index: 0;
+  top: 8px;
+  left: 8px;
+  color: black;
+}
+#home
+{
+  position: absolute;
+  top: +3.5px;
+z-index: 1;
+  height: 50px;
+  width: 50px;
+}
