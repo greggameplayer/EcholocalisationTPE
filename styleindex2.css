@@ -1,0 +1,82 @@
+body {
+ background-image: url(../images/fondindex2.jpg);
+ background-size: 260%;
+ background-repeat: no-repeat;
+}
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  position: absolute;
+  background-color:white;
+  box-shadow: 0 3px 3px;
+}
+footer {
+  position: absolute;
+  top: 375%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 -2px 5px;
+}
+#titletpe {
+  text-align: center;
+  position: relative;
+  z-index: 0;
+  top: -13px;
+}
+#div1
+{
+  position: absolute;
+  left: calc(50% - 600px);
+  top: 10%;
+  width: 1200px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+#div2
+{
+   position: absolute;
+  left: calc(50% - 600px);
+  top: 190%;
+  width: 1200px;
+  text-align: center;
+  font-size: 1.3rem; 
+}
+#Fdoppler{
+	position: absolute;
+  top: 680px;
+  width:200px;
+	left: calc(90% - 100px);
+  height: 80px;
+}
+h2
+{
+  color: red;
+  text-decoration:underline;
+}
+i
+{
+  position: absolute;
+  z-index: 0;
+  top: 8px;
+  left: 8px;
+  color: black;
+}
+#home
+{
+  position: absolute;
+  top: +3.5px;
+z-index: 1;
+  height: 50px;
+  width: 50px;
+}
+video
+{
+  position:absolute;
+  top: 1990px;
+  left: calc(50% - 250px);
+  width: 500px;
+  z-index:1;
+}

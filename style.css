@@ -1,0 +1,148 @@
+body {
+ background-image: url(../images/fond.jpg);
+ background-size: 170%;
+ background-repeat: no-repeat;
+}
+header {
+  top: 0;
+  left: 0;
+  width: 105%;
+  height: 55px;
+  position: absolute;
+  background-color:white;
+  box-shadow: 0 3px 3px;
+}
+footer {
+  position: absolute;
+  top: 175%;
+  left: 0;
+  width: 105%;
+  background-color: white;
+  box-shadow: 0 -2px 5px;
+}
+#titletpe {
+  text-align: center;
+  position: relative;
+  z-index: 0;
+  top: -10px;
+}
+.div1{
+
+	
+	position:absolute;
+	top: 140%;
+
+	
+}
+
+
+#aveugle{
+width: 157.5px;	
+position: absolute;
+left: calc(25vw - 78.75px);
+top: -75px;
+}
+#C-S{
+width: 248.5px;
+position: absolute;
+left: calc(75vw - 124.25px);
+
+	
+}
+.div2{
+
+	position:absolute;
+	top: 80%;
+	width: 1000px;
+	left:calc(50% - 500px);
+	
+}
+.PB{
+	
+	font-weight: bolder;
+	font-size:35px;
+	text-align: center;
+	color:lime;
+}
+#div3{
+	position: relative;
+	top:+250px;
+	z-index: 0;
+	width:1200px;
+	left:calc(50% - 600px);
+	
+}
+#div3 h2 
+{
+	
+	color:lime;
+		
+}
+#div3 #paragraphintro
+{
+	color: white;
+	font-size: 1.5rem;
+	text-shadow: black 3px 3px 3px;
+}
+#div3 #introtext
+{
+	
+	color: white;
+	font-size: 1.5rem;
+	text-shadow: black 3px 3px 3px;
+	text-align: center;
+}
+#button p
+{
+	font-size: 1.3rem;
+}
+#linkbutton
+{
+	text-decoration: none;
+	color: yellow;
+}
+#button
+{
+	top:+600px;
+	left: calc(50% - 125px);
+	text-align: center;
+	position:relative;
+	border-style: solid;
+	border-color: white;
+	border-radius: 5px;
+	width: 250px;
+}
+#button:hover
+{
+	border-color: green;
+	box-shadow: 3px 2px 3px green;
+	color:green;
+}
+#buttons
+{
+	position: absolute;
+	z-index:1;
+	top: 2px;
+	left:92vw;
+}
+
+.ben{
+	position:absolute;
+	top:90px;
+	width:1100px;
+	left: calc(45% - 550px);
+	font-size:20px;
+	color:lightgrey;
+}
+#BU{
+	position:absolute;
+	top :100px;
+	left: calc(95% - 50px);
+	width:100px;
+	
+}
+#hypothese{
+	position:absolute;
+	top: 650px;
+	color:lime;
+}
