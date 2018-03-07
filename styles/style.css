@@ -7,7 +7,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 55px;
+  height: 52px;
   position: absolute;
   background-color:white;
   box-shadow: 0 3px 3px;
@@ -24,7 +24,7 @@ footer {
   text-align: center;
   position: relative;
   z-index: 0;
-  top: -10px;
+  top: -15px;
 }
 .div1{
 
@@ -121,9 +121,10 @@ left: calc(75vw - 174.25px);
 {
 	position: absolute;
 	z-index:1;
-	top: 2px;
+	top: 0px;
 	left:92vw;
 }
+
 
 .ben{
 	position:absolute;
@@ -155,4 +156,30 @@ left: calc(75vw - 174.25px);
 	left: calc(50% - 125px);
 	color: lightgrey;
 	text-decoration: underline;
+}
+#bouton p
+{
+	font-size: 1.3rem;
+}
+#linkbouton
+{
+	text-decoration: none;
+	color: yellow;
+}
+#bouton
+{
+	top:160vh;
+	left: calc(50% - 125px);
+	text-align: center;
+	position:absolute;
+	border-style: solid;
+	border-color: white;
+	border-radius: 5px;
+	width: 250px;
+}
+#bouton:hover
+{
+	border-color: green;
+	box-shadow: 3px 2px 3px green;
+	color:green;
 }

@@ -1,6 +1,6 @@
 body {
- background-image: url(../images/fondgrotte.jpg);
- background-size: 130%;
+ background-image: url(../images/fondindex2.jpg);
+ background-size: 100%;
  background-repeat: no-repeat;
 }
 header {
@@ -14,7 +14,7 @@ header {
 }
 footer {
   position: absolute;
-  top: 130%;
+  top: 93.78%;
   left: 0;
   width: 100%;
   background-color: white;
@@ -25,7 +25,7 @@ footer {
 	position: absolute;
 	z-index:1;
 	top: 0px;
-	left:92vw;
+	left:92.87vw;
 }
 #titletpe {
   text-align: center;
@@ -33,40 +33,19 @@ footer {
   z-index: 0;
   top: -15px;
 }
-#schema
+#div1
 {
-	
-	width:350px;
-	position:absolute;
-	top:89vh;
-	left: calc(90% - 175px);
-	}
-#div1{
-	font-size:22px;
-	color: white;	
-	position: absolute;
-	top: 6.5vh;
-	left: calc(50% - 600px);
-	width:1200px;
-	text-align:center;
-}	
-#div2{
-	font-size:22px;
-	color: yellow;
-	position: absolute;
-	top: 86.4vh;
-	left: calc(40% - 500px);
-	width:1000px;
-	text-align:center;	
+  position: absolute;
+  left: calc(50% - 600px);
+  top: 10%;
+  width: 1200px;
+  text-align: center;
+  font-size: 1.3rem;
 }
-#div3{
-	font-size:22px;
-	color: white;
-	position: absolute;
-	top: 45.52vh;
-	left: calc(50% - 600px);
-	width:1200px;
-	text-align:center;	
+h2
+{
+  color: red;
+  text-decoration:underline;
 }
 i
 {
